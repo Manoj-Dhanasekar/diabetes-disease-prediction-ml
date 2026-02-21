@@ -58,7 +58,7 @@ Important features typically include:
 	Insulin
 
 
-**▶ How to Run the Project**
+**▶ How to Run the Project:**
 1️⃣ Clone the repository
 git clone <your-repository-link>
 cd diabetes-disease-prediction-ml

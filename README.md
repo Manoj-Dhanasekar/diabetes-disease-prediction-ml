@@ -24,63 +24,46 @@
 •	Feature Importance Analysis
 •	Model Saving for Deployment
 
-**📁 Project Structure**
-diabetes-disease-prediction-ml/
-│
-├── data/
-│   └── diabetes.csv
-│
-├── notebooks/
-│   └── diabetes_prediction.ipynb
-│
-├── models/
-│   ├── diabetes_model.pkl
-│   └── scaler.pkl
-│
-├── requirements.txt
-└── README.md
+**Model Performance**
+  1. Logistic Regression Accuracy: ~75–80%
 
-**🎯 Model Performance**
-
-Logistic Regression Accuracy: ~75–80%
-
-Random Forest Accuracy: ~78–85%
-
+  2. Random Forest Accuracy: ~78–85%
 (Random Forest performed better compared to Logistic Regression.)
 
-**🔍 Feature Importance**
-
+**Feature Importance**
 Random Forest was used to analyze feature importance and identify key medical attributes influencing diabetes prediction.
 Important features typically include:
-	Glucose Level
-	BMI
-	Age
-	Insulin
+   ->	Glucose Level
+   -> BMI
+   -> Age
+   -> Insulin
 
 
 **▶ How to Run the Project:**
-1️⃣ Clone the repository
+
+Step 1: Clone the repository
 git clone <your-repository-link>
 cd diabetes-disease-prediction-ml
-2️⃣ Install dependencies
-pip install -r requirements.txt
-3️⃣ Run Jupyter Notebook
-jupyter notebook
 
+Step 2: Install dependencies
+pip install -r requirements.txt
+
+ Step 3: Run Jupyter Notebook
+jupyter notebook
 Open diabetes_prediction.ipynb and run all cells.
 
-**📌 Dataset**
+**Dataset**
 Pima Indians Diabetes Dataset
 Available on UCI Machine Learning Repository / Kaggle.
 
-**🎓 Learning Outcomes**
+**Learning Outcomes**
 1.	Hands-on experience with ML classification models
 2.	Understanding data preprocessing and feature scaling
 3.	Model comparison and evaluation techniques
 4.	Saving trained ML models for deployment
 5.	Building structured ML project for GitHub portfolio
 
-**📎 Future Improvements**
+**Future Improvements**
 Hyperparameter tuning for better accuracy
 Deployment using Flask or Streamlit
 Integration with web-based prediction interface
